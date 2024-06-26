@@ -13,6 +13,11 @@ With Yahoo Finance library (yfinance) I took stock data of a company and then us
 Stored data I saved as .csv file and then I open it with PySpark.
 Prediction model was made with PySpark usage (data from last year [2024])
 
+I prepaired 3 data timestamps. Comment everything except data we want to use.
+2024: stocks = yf.download(stock, start="2024-01-01")
+2020: stocks = yf.download(stock, start="2020-01-01")
+2010: stocks = yf.download(stock, start="2010-01-01")
+
 ![image](https://github.com/Troll759/GieldaPredict/assets/77497259/6a11c2df-b26f-4f97-9e24-99b469d773ff)
 
 
