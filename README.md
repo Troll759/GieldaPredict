@@ -3,7 +3,11 @@ Przewidywanie zachowania giełdy i spadku akcji
 
 
 ## AWS
-Użycie EC2
+EMR:
+          - prepaired bucket S3 in which I made catalogs for logs, outputs, program code and input (which is probably unnecessary, but I was trying to manage errors)
+          - prepaired VPC and connected it to EMR cluster
+          - prepaired and launched EC2
+
 
 ## Żródła
 how do predictive analysis work? -> https://www.youtube.com/watch?v=Cx8Xie5042M
