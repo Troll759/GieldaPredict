@@ -10,6 +10,7 @@ EMR:
 
 ## Program
 With Yahoo Finance library (yfinance) I took stock data of a company and then used it for prediction model.
+Stored data I saved as .csv file and then I open it with PySpark.
 Prediction model was made with PySpark usage (data from last year [2024])
 
 ![image](https://github.com/Troll759/GieldaPredict/assets/77497259/6a11c2df-b26f-4f97-9e24-99b469d773ff)
